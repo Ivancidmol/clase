@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+    padding: 12%;
+}
+
+section {
+    font-size: 17px;
+    padding: 5%;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+a {
+    font-size: large;
+}
+
+header {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.boton{
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .caja1 {
+        font-size: 90px;
+
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .caja2 {
+        background-color: brown;
+    }
+}
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .caja3 {
+        display: none;
+    }
+}
+
